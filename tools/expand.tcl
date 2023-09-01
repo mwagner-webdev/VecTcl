@@ -3,6 +3,7 @@
 
 set toolpath [file dirname [info script]]
 
+lappend auto_path /usr/local/lib/tcllib1.21/textutil
 puts $auto_path
 
 package require textutil::expander
