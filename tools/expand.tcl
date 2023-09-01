@@ -3,6 +3,8 @@
 
 set toolpath [file dirname [info script]]
 
+puts $auto_path
+
 package require textutil::expander
 package require fileutil
 
